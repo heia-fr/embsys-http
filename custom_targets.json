@@ -1,0 +1,20 @@
+{
+    "DISCO_HEIAFR": {
+      "inherits": [
+        "MCU_STM32F412xG"
+      ],
+      "components_add": [
+      ],
+      "supported_form_factors": [
+        "ARDUINO_UNO"
+      ],
+      "detect_code": [
+        "1234"
+      ],
+      "device_has_add": [
+        "USBDEVICE"
+      ],
+      "device_name": "STM32F412ZGTx"
+    }
+  }
+  

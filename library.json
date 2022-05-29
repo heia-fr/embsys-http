@@ -1,0 +1,19 @@
+{
+    "name": "embsys-http",
+    "version": "0.1.0",
+    "description": "HTTP module for embedded system lectures",
+    "authors":
+    [
+      {
+        "name": "Jacques Supcik",
+        "email": "jacques.supcik@hefr.ch",
+        "maintainer": true
+      }
+    ],
+    "license": "Apache-2.0",
+    "frameworks": "mbed",
+    "platforms": "ststm32",
+    "build": {
+      "builder": "MbedLibBuilder"
+    }
+  }
