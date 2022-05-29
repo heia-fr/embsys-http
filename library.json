@@ -1,5 +1,5 @@
 {
-    "name": "embsys-http",
+    "name": "EmbsysHttp",
     "version": "0.1.0",
     "description": "HTTP module for embedded system lectures",
     "authors":
