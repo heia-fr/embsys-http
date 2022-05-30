@@ -18,8 +18,8 @@
  * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
  * IN THE SOFTWARE.
  */
-#ifndef http_parser_h
-#define http_parser_h
+#ifndef HTTP_PARSER_H_
+#define HTTP_PARSER_H_
 
 #ifdef __cplusplus
 extern "C" {
@@ -429,4 +429,4 @@ int http_body_is_final(const http_parser *parser);
 #ifdef __cplusplus
 }
 #endif
-#endif
+#endif /* HTTP_PARSER_H_ */
