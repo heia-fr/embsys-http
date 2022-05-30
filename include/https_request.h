@@ -18,12 +18,6 @@
 #ifndef HTTPS_REQUEST_H_
 #define HTTPS_REQUEST_H_
 
-#ifndef HTTPS_REQUEST_H_
-#define HTTPS_REQUEST_H_
-
-#ifndef _MBED_HTTPS_REQUEST_H_
-#define _MBED_HTTPS_REQUEST_H_
-
 #include <string>
 #include <vector>
 #include <map>
@@ -102,11 +96,5 @@ protected:
         return ((TLSSocket*)_socket)->connect(address);
     }
 };
-
-#endif // _MBED_HTTPS_REQUEST_H_
-
-
-#endif /* HTTPS_REQUEST_H_ */
-
 
 #endif /* HTTPS_REQUEST_H_ */
